@@ -1,0 +1,31 @@
+# Environnement virtuel
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Base de données de l'app (contient les secrets chiffrés)
+*.db
+*.sqlite3
+*.db-journal
+
+# Variables d'environnement et secrets
+.env
+.env.*
+!.env.example
+
+# Éditeurs et système
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
